@@ -1,0 +1,22 @@
+# PostgreSQL-relaterade filer
+*.sql~
+*.backup
+*.dump
+
+# MacOS-specifika filer
+.DS_Store
+
+# Windows-specifika filer
+Thumbs.db
+desktop.ini
+
+# Editor/IDE-filer
+.vscode/
+.idea/
+*.iml
+
+# Python/venv (om du använder Python för att generera fakedata)
+__pycache__/
+*.pyc
+venv/
+.env
